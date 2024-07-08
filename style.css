@@ -239,7 +239,68 @@ nav ul {
   color: blue;
 }
 /* dream job section style */
+.dream-section {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 
+.dream-section > * {
+  width: 100%;
+}
+.dream-content {
+  margin-top: 70px;
+}
+
+.dream-content-title {
+  width: 470px;
+  color: #21202a;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.dream-content-pra {
+  width: 470px;
+  margin-top: 15px;
+  color: #545360;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.dream-content-svg {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  color: #21202a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.dream-svg {
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.dream-svg img {
+  height: 60%;
+  margin-left: 190px;
+  padding-top: 50px;
+}
+
+.dream-btn {
+  border: none;
+  background-color: #3936c4;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 18px;
+  margin-top: 25px;
+}
 /* responsive breakpoints */
 /* ********************************************************************************************************* */
 @media (max-width: 991.98px) {
@@ -415,6 +476,15 @@ nav ul {
     display: flex;
     flex-direction: column;
     gap: 25px;
+  }
+  .dream-section {
+    margin-top: 90px;
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
   }
 }
 /* ********************************************************************************************************* */
