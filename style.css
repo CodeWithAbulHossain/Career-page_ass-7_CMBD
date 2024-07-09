@@ -301,6 +301,44 @@ nav ul {
   padding: 10px 18px;
   margin-top: 25px;
 }
+#featured {
+  margin-top: 140px;
+}
+.featured-title {
+  width: 570px;
+  margin: auto;
+  color: #545360;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.featured-title h2 {
+  color: #21202a;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 15px;
+}
+.featured-card-all {
+  margin-top: 55px;
+}
+.featured-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.card-1 {
+  width: 380px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 25px 15px;
+  border-radius: 15px;
+}
 /* responsive breakpoints */
 /* ********************************************************************************************************* */
 @media (max-width: 991.98px) {
